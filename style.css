@@ -1,0 +1,139 @@
+body{
+  background-color: #FFB190;
+  font-size: 24px;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+a{
+  text-decoration: none;
+  color: #E7703D;
+}
+
+
+/* navbar */
+.navbar{
+  text-decoration: none;
+  font-family: 'Montserrat Subrayada', sans-serif;
+  color: #E38861;
+  margin-top: 10em;
+  margin-bottom: 7.5em;
+}
+
+.navbar ul li a {
+  color: #E38861;
+}
+
+.navbar ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.navbar ul li {
+  padding: 20px;
+  display: inline;
+  font-size: 1.8em;
+}
+
+/* navbar */
+
+/* Title */
+.tetle{
+  color: white;
+  font-family: 'Montserrat Subrayada', sans-serif;
+  font-size: 5em;
+  text-align: right;
+  margin-bottom: 1em;
+}
+
+/* Title */
+
+/* games by us */
+.games{
+  font-family: 'Montserrat Subrayada', sans-serif;
+  color:#E38861 ;
+  font-size: 3em;
+  margin-top: 1em;
+}
+.subhead{
+  font-family: 'Montserrat';
+  font-size: .5em;
+  text-align: center;
+  margin-top: -.7em;
+}
+/* games by us */
+
+/* for show casing the games */
+
+.game-box{
+  padding : 1em 5em 2em 5em;
+  font-family: 'Montserrat';
+  color: #E38861;
+
+}
+
+/* .box1{
+
+  width: 20em;
+  padding : 1em;
+  background-color: #FAC5AE;
+}
+
+.box2{
+  width: 20em;
+  padding : 1em;
+  background-color: #FAC5AE;
+
+}
+
+.headbox{
+  text-align: center;
+  padding: 1em;
+}
+.gotopage{
+  text-align: center;
+  padding: .5em;
+} */
+
+.game-box ul {
+  list-style: none;
+
+}
+.game-box ul li {
+
+  padding: 1em;
+  background-color: #FAC5AE;
+  width: 20em;
+  display: inline-block;
+}
+
+/* for show casing the games */
+
+
+
+
+
+
+
+
+
+/* ---------Different Size for body text-------- */
+/* widht 680 */
+@media screen and (max-width: 680px){
+  body{
+    font-size: 15px;
+  }
+}
+
+/* widht 800 */
+@media screen and (max-width: 800px) and (min-width:680px) {
+  body{
+    font-size: 20px;
+  }
+}
+
+
+/* ---------Different Size for body text-------- */
